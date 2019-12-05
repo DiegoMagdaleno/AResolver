@@ -2,7 +2,7 @@ from termcolor import colored, cprint # This lib is so I can color the output an
 # Created by Diego Magdaleno, a young, introvert and dumb computer science student.
 # Dedicated to all those people that helped me being a better person.
 # This is a public algorithm, take is a gift. 
-# Thank you <3.
+# Thank you <3. This line is thanks for that special person, you know who you are. 
 # Resolves dependencies
 
 
