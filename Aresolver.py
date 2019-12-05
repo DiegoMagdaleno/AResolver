@@ -1,6 +1,10 @@
 from termcolor import colored, cprint # This lib is so I can color the output and everything is easier to understand in the example
 # Created by Diego Magdaleno, a young, introvert and dumb computer science student.
+# Dedicated to all those people that helped me being a better person.
+# This is a public algorithm, take is a gift. 
+# Thank you <3.
 # Resolves dependencies
+
 
 class Node: # A node is any "Vector in a graph"
    def __init__(self, name):
@@ -8,7 +12,7 @@ class Node: # A node is any "Vector in a graph"
       # Edges are the lines or relations, that are going to be in array
       self.edges = []
     
-    # Appends new nodes that are connect to edges (?)
+    # Connects the nodes, by adding edges
    def addEdge(self, node):
       self.edges.append(node)
 
