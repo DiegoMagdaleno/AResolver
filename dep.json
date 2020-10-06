@@ -1,0 +1,74 @@
+[
+  {
+    "name":"gnutls",
+    "depends": ["gmp", "guile", "libidn2", "libtasn1", "libunistring", "nettle", "p11-kit", "unbound"]
+  },
+  {
+    "name":"guile",
+    "depends": ["bdw-gc", "gmp", "libffi", "libtool", "libunistring", "pkg-config", "readline"]
+  },
+  {
+    "name":"gmp"
+  },
+  {
+    "name":"libidn2",
+    "depends": ["gettext", "libunistring"]
+  },
+  {
+    "name": "gnu-tar"
+  },
+  {
+    "name":"gpatch"
+  },
+  {
+    "name":"perl"
+  },
+  {
+    "name":"pkg-config"
+  },
+  {
+    "name":"po4a"
+  },
+  {
+    "name": "gettext"
+  },
+  {
+    "name":"libunistring"
+  },
+  {
+    "name":"pkg-config"
+  },
+  {
+    "name":"nettle",
+    "depends": ["gmp"]
+  },
+  {
+    "name": "unbound",
+    "depends": ["libevent", "openssl"]
+  },
+  {
+    "name":"openssl"
+  },
+  {
+    "name":"libtasn1"
+  },
+  {
+    "name":"p11-kit"
+  },
+  {
+    "name":"bdw-gc"
+  },
+  {
+    "name":"libffi"
+  },
+  {
+    "name":"libtool"
+  },
+  {
+    "name":"readline"
+  },
+  {
+    "name":"libevent",
+    "depends":["openssl"]
+  }
+]
