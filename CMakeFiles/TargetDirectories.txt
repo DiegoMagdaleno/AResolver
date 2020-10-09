@@ -1,3 +1,0 @@
-/Users/me/Documents/Projects/Vodka/CMakeFiles/rebuild_cache.dir
-/Users/me/Documents/Projects/Vodka/CMakeFiles/edit_cache.dir
-/Users/me/Documents/Projects/Vodka/CMakeFiles/Vodka.dir
