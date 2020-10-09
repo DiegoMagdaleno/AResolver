@@ -1,3 +1,6 @@
+//
+// Created by Diego Magdaleno on 10/5/20.
+//
 /* Internal headers part of the
  * default C++ lib */
 #include <iostream>
@@ -68,14 +71,18 @@ void fileToDict(std::string path) {
 
 int main() {
 
-    auto start = std::chrono::steady_clock::now();
-
     std::vector<PackageNode*> solvedTest;
     std::vector<PackageNode*> seenTest;
 
     fileToDict("/Users/me/Documents/Projects/Vodka/dep.json");
+    std::string name;
 
-    depResolve(packageNodeDict["gnutls"], &solvedTest, &seenTest);
+    std::cout << "For what package of the tree you want to resolve deps?: ";
+    std::cin >> name;
+
+    auto start = std::chrono::steady_clock::now();
+
+    depResolve(packageNodeDict[name], &solvedTest, &seenTest);
     for (int i = 0; i < solvedTest.size(); i++) {
         std::cout << solvedTest[i]->getName() << std::endl;
     }

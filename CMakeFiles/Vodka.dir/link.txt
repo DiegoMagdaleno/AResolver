@@ -1,0 +1,3 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f CMakeFiles/Vodka.dir/objects.a
+/usr/local/bin/x86_64-w64-mingw32-ar cr CMakeFiles/Vodka.dir/objects.a @CMakeFiles/Vodka.dir/objects1.rsp
+/usr/local/bin/x86_64-w64-mingw32-g++  -static -static -g  -Wall -Wextra -static-libstdc++ -static-libgcc -Wl,--whole-archive CMakeFiles/Vodka.dir/objects.a -Wl,--no-whole-archive  -o Vodka.exe -Wl,--out-implib,libVodka.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/Vodka.dir/linklibs.rsp
